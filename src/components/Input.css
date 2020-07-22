@@ -1,0 +1,12 @@
+.sign-up {
+   width: 90%;
+   display: grid;
+   grid-template-columns: 3fr 1fr;
+   grid-gap: 5px;
+}
+
+.email-button {
+    background-color: #e06750;
+    border: none; 
+    border-radius: 5px;
+}
