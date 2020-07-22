@@ -1,6 +1,9 @@
+/* eslint-disable */
+
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import Input from './Input';
+import icon from '../css/icon.css';
 
 const Wrapper = styled.div`
   position: absolute;
