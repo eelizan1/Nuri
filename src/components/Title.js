@@ -1,9 +1,5 @@
-import React, { Component } from 'react';
-import {render} from 'react-dom';
+import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import { compose, lifecycle, branch, renderComponent } from 'recompose';
-// import { Navbar, Jumbotron, Button, InputGroup, FormControl } from 'react-bootstrap';
-import icon from '../css/icon.css';
 import Input from './Input';
 
 const Wrapper = styled.div`
@@ -207,15 +203,15 @@ const Heading = ({ heading, subheading, content, input }) =>
 ;
 
 const Instagram = ({ text, className, href }) =>
-  <InstagramInLeft href= { href } className={ className }>{ text }</InstagramInLeft>
+  <InstagramInLeft href={ href } className={ className }>{ text }</InstagramInLeft>
 ;
 
 const Email = ({ text, className, href }) =>
-  <EmailInUp href= { href } className={ className }>{ text }</EmailInUp>
+  <EmailInUp href={ href } className={ className }>{ text }</EmailInUp>
 ;
 
 const Vimeo = ({ text, className, href }) =>
-  <VimeoInRight href= { href } className={ className }>{ text }</VimeoInRight>
+  <VimeoInRight href={ href } className={ className }>{ text }</VimeoInRight>
 ;
 
 const Title = () => (

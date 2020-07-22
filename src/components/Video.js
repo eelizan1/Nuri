@@ -1,11 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { compose, withState, withHandlers, withProps, lifecycle, branch, renderComponent } from 'recompose';
-import clip1 from '../images/paulanovotna-coming-soon.mp4';
 import clip from '../images/video.mp4';
 import Title from './Title';
 import styled from 'styled-components';
-import icon from '../css/icon.css';
-import style from '../css/style.css';
 
 const VideoClip = styled.video`
   position: fixed;
